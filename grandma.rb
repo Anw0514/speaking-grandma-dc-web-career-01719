@@ -1,5 +1,4 @@
 def speak_to_grandma(speech)
-  again = String.new
   if speech == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif speech.upcase == speech
