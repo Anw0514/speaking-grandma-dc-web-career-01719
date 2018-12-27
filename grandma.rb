@@ -1,5 +1,5 @@
 def speak_to_grandma(speech)
-  again = nil
+  again = string.new
   if speech.upcase == speech
     puts "NO, NOT SINCE 1938!"
   elsif speech == "I LOVE YOU GRANDMA!"
