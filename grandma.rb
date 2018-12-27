@@ -2,6 +2,7 @@ def speak_to_grandma(speech)
   again = String.new
   if speech.upcase != speech
     puts "HUH? SPEAK UP, SONNY!"
+    if 
   elsif speech.upcase == speech
     puts "NO, NOT SINCE 1938!"
   elsif speech == "I LOVE YOU GRANDMA!"
